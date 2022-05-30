@@ -1,0 +1,12 @@
+[0526/095147.834:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0526/101551.590:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0526/101551.590:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0526/101551.590:ERROR:process_reader_win.cc(123)] NtOpenThread: {Accès refusé} Un processus a demandé l’accès a un objet, mais il ne bénéficie pas des autorisations nécessaires. (0xc0000022)
+[0526/101551.590:ERROR:exception_snapshot_win.cc(99)] thread ID 9176 not found in process
+[0526/101551.606:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0526/101551.606:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0615/132559.034:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0615/132559.110:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Erwan\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\763cc084-3779-455e-a523-6d75fd388a86: Le chemin d’accès spécifié est introuvable. (0x3)
+[0716/130146.275:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0830/002440.877:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1128/133615.433:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

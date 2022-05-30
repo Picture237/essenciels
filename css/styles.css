@@ -1,0 +1,265 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic);
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 400;
+	border: none;
+	color: #444;
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+	margin: 0px 0px 10px;
+	color: #272727;
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 16px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	line-height: 22px;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+p {
+	margin-bottom: 22px;
+	font-family: "Open Sans", sans-serif;
+	font-size:14px;
+	line-height: 25px;
+	color: #727272;
+	font-weight: 400;
+}
+a {
+	color:#7EC13F;
+	background:none;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:active, a:focus {
+	color:#F5514B;
+	text-decoration: none;
+	outline: none;
+}
+
+::selection {
+ background:#F5514B;
+ color:#FFF;
+}
+
+::-moz-selection {
+ background:#F5514B;
+ color:#FFF;
+}
+
+img {
+	max-width:100%;
+}
+
+
+/*-----------------------------------------------------------------*/
+/* Common Elements
+/*-----------------------------------------------------------------*/
+
+::-webkit-input-placeholder {
+ color:#FFF !important;
+ font-weight: 600;
+ letter-spacing:1px;
+}
+
+:-moz-placeholder {
+ color:#FFF !important;
+ font-weight: 600;
+ letter-spacing:1px;
+}
+
+::-moz-placeholder {
+ color:#FFF !important;
+ font-weight: 600;
+ letter-spacing:1px;
+}
+
+:-ms-input-placeholder {
+ color:#FFF !important;
+ font-weight: 600;
+ letter-spacing:1px;
+}
+
+.clear {
+	clear:both;
+}
+
+.scrollup {
+	width:35px;
+	height:35px;
+	position:fixed;
+	bottom:30px;
+	right:15px;
+	display:none;
+	background:rgba(126, 193, 63, .8);
+	text-align: center;
+}
+
+.scrollup i {
+	color:#fff;
+	font-size:15px;
+	display:block;
+	line-height:33px;
+}
+
+.scrollup:hover {
+	background:rgba(126, 193, 63, .9);
+}
+
+.section {
+	padding:100px 0 70px;
+	position:relative;
+}
+
+.section .container {
+	position:relative;
+}
+
+.title-box {
+	border-bottom-width: 0px;
+	margin-bottom: 75px;
+	position: relative;
+}
+
+.title-box h2.title {
+	font-weight: 700;
+	font-size: 29px;
+	line-height: 32px;
+	text-transform: uppercase;
+}
+
+.title-box h2:before {
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 0;
+	margin: -22px auto;
+	position: absolute;
+	width: 40px;
+	background: #00AAB3;
+}
+
+.title-box.white h2.title:before {
+	background:#FFF;
+}
+
+.title-box.white h2.title {
+	color:#FFF;
+}
+
+.title-box.text-center h2:before {
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 0;
+	right:0;
+	margin: -22px auto;
+	position: absolute;
+	width: 40px;
+	background: #575051;
+}
+
+.title-box.text-right:before {
+	left: auto;
+	right: 0;
+}
+
+.title-box.text-center:before {
+	left: 50%;
+	margin-left: -20px;
+}
+
+.color-white h2 {
+	color:#fff !important;
+}
+
+#pageloader {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color:#FFF;
+	z-index: 999999;
+}
+
+.loader {
+	position: absolute;
+	width: auto;
+	height:auto;
+	margin: -25px 0 0 -25px;
+	top:50%;
+	left:50%;
+	text-align:center;
+}
+
+.overlay {
+	background:rgba(0, 0, 0, 0.4) url("../images/pattern.png") repeat;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+section {
+	position:relative;
+}
+
+.parallax .container {
+	position:relative;
+}
+
+.parallax {
+	background-attachment: fixed !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
+
+
+/*-----------------------------------------------------------------*/
+/* Client Logo Carousel
+/*-----------------------------------------------------------------*/
+
+#clients {
+	background:#FFF;
+	text-align:center;
+}
+
+.clients-carousel .item figure {
+	margin: 10px;
+	width: 150px;
+	margin: 0 auto;
+}
+
+.clients-carousel .item figure img {
+	display: block;
+	margin: 0 auto;
+	opacity:0.5;
+}
+
+.clients-carousel .item figure img:hover {
+	opacity:1;
+}
+
